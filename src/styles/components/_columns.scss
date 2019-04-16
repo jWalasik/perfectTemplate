@@ -1,0 +1,11 @@
+.columns {
+  background: $dark-gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $off-white;
+}
+
+.column {
+  padding: $l-size;
+}
