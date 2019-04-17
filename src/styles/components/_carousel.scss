@@ -8,11 +8,12 @@
 }
 
 .carousel > h2 {
-  margin-top: 20%;
+  margin-top: 35rem/2-$l-size;
   font-size: $l-size;
 }
 
 .carousel > button {
+  margin: auto;
   border: solid $dark-gray 2px;
   border-radius: 2px;
   background: none;
@@ -21,7 +22,7 @@
 }
 
 .carousel__buttons {
-  margin-top: auto;
+  margin: 0 auto;
 }
 .carousel__buttons > button {
   height: 0.8rem;

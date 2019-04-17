@@ -14,7 +14,7 @@ class App extends Component {
         <Header />
         <Carousel />
         <div className='description'>
-          This is the bit where you talk about how uniqie you are as a buisness and that you're different to all of your competitors. Your website looks the same though.
+          This is the bit where you talk about how unique you are as a buisness and that you're different to all of your competitors. Your website looks the same though.
         </div>
         <div className='columns'>
           <div className='column'>
