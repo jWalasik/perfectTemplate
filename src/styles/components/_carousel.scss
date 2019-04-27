@@ -32,3 +32,9 @@
   margin: $xs-size;
   align-self: flex-end;
 }
+.carousel__bg {
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  overflow: hidden;
+}
