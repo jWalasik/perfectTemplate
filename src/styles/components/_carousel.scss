@@ -37,4 +37,21 @@
   z-index: -1;
   object-fit: cover;
   overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.carousel__control {
+  position: absolute;
+  cursor: pointer;
+  font-size: $l-size;
+  border: none !important;
+}
+
+.next{
+  right: 0;
+}
+.prev{
+  left: 0;
 }

@@ -24,8 +24,8 @@ class Carousel extends React.Component {
       current: 0,
       isNext: true
     }
-    this.componentDidUpdate = () => {
-      
+    this.componentDidMount = () => {
+      this.timer = setInterval(()=>this.nextSlide(), 3000)
     }
     
     this.handleClick = (e) => {
@@ -56,8 +56,8 @@ class Carousel extends React.Component {
           <button value={2} onClick={this.handleClick}></button>
         </div>
         <img className="carousel__bg" src={url} alt="background" />
-        <button onClick={this.prevSlide}>previous</button>
-        <button onClick={this.nextSlide}>next</button>
+        <button className="carousel__control prev" onClick={this.prevSlide}>{'<'}</button>
+        <button className="carousel__control next" onClick={this.nextSlide}>{'>'}</button>
       </div>        
     )
   }
